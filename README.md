@@ -1,4 +1,4 @@
-# 🛡️ W8Team WiFi Hacker - Advanced Auto System
+# 🛡️ Creative WiFi Hacker - Advanced Auto System
 
 <div align="center">
 
@@ -7,10 +7,10 @@
 ![License](https://img.shields.io/badge/License-Educational-red)
 ![Python](https://img.shields.io/badge/Python-3.6%2B-yellow)
 
-**🚀 Professional WiFi Penetration Testing Tool**  
+**🚀 Professional WiFi Penetration Testing Tool**
 *Automated WPS Attack System with AI-Powered PIN Prediction*
 
-[📱 Telegram](https://t.me/W8SOJIB) • [📋 Features](#-features) • [🔧 Installation](#-installation) • [📖 Usage](#-usage)
+[📱 Facebook](https://facebook.com/CreativeRakibRoni) • [📋 Features](#-features) • [🔧 Installation](#-installation) • [📖 Usage](#-usage)
 
 </div>
 
@@ -18,11 +18,11 @@
 
 ## 🌟 **Overview**
 
-W8Team WiFi Hacker is an advanced, automated WiFi penetration testing tool designed for security professionals and ethical hackers. Built specifically for Termux (Android) and Linux environments, it combines multiple attack vectors with AI-powered PIN prediction for maximum effectiveness.
+Creative WiFi Hacker is an advanced, automated WiFi penetration testing tool designed for security professionals and ethical hackers. Built specifically for Termux (Android) and Linux environments, it combines multiple attack vectors with AI-powered PIN prediction for maximum effectiveness.
 
 ### ⚡ **Key Highlights**
 - 🎯 **Fully Automated** - Zero configuration needed
-- 🤖 **AI-Powered** - Smart PIN prediction algorithms  
+- 🤖 **AI-Powered** - Smart PIN prediction algorithms
 - 📱 **Termux Optimized** - Perfect for mobile penetration testing
 - 🎨 **Professional Interface** - Beautiful menu system with live statistics
 - 💾 **Auto-Save Results** - All successful attacks automatically saved
@@ -56,7 +56,7 @@ W8Team WiFi Hacker is an advanced, automated WiFi penetration testing tool desig
 
 ### 🚀 **What Makes This Special?**
 
-Unlike traditional WiFi tools that require extensive manual configuration, W8Team WiFi Hacker provides a **"one-click"** solution:
+Unlike traditional WiFi tools that require extensive manual configuration, Creative WiFi Hacker provides a **"one-click"** solution:
 
 1. **🔍 Universal Coverage** - Attacks EVERY WPS network found (not just vulnerable ones)
 2. **⏱️ Smart Timeout System** - 30-second limit per network for maximum efficiency
@@ -77,7 +77,7 @@ Unlike traditional WiFi tools that require extensive manual configuration, W8Tea
 #### **🚀 Quick Install (1-Minute Setup)**
 ```bash
 # Copy and paste this entire block:
-pkg update && pkg upgrade -y && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw openssl python-pip aircrack-ng hashcat && pip install pyfiglet psutil requests && git clone https://github.com/W8SOJIB/W8RootWifiHKV2 && cd W8RootWifiHKV2 && echo "🎉 Ready to hack! Run: tsu && sudo python oneshot.py"
+pkg update && pkg upgrade -y && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw openssl python-pip aircrack-ng hashcat && pip install pyfiglet psutil requests && git clone https://github.com/itsrakibroni/CreativeWiFiHack && cd W8RootWifiHKV2 && echo "🎉 Ready to hack! Run: tsu && sudo python oneshot.py"
 ```
 
 #### **📋 Step-by-Step Installation**
@@ -150,8 +150,8 @@ pip install pyfiglet psutil requests
 ```
 # Clone repository
 ```
-git clone https://github.com/W8SOJIB/W8RootWifiHKV2
-cd W8RootWifiHKV2
+git clone https://github.com/itsrakibroni/CreativeWiFiHack
+cd CreativeWiFiHack
 ```
 # Optional: Run auto-installer for additional setup
 ```
@@ -169,8 +169,8 @@ sudo python oneshot.py
 
 ```bash
 # Clone repository
-git clone https://github.com/W8SOJIB/W8RootWifiHKV2
-cd W8RootWifiHKV2
+git clone https://github.com/itsrakibroni/CreativeWiFiHack
+cd CreativeWiFiHack
 
 # Install dependencies
 sudo apt update
@@ -198,12 +198,11 @@ The tool will display a beautiful menu interface with Smart AI capabilities:
 ```
 ╔═══════════════════ LIVE STATISTICS ═══════════════════╗
 ║ TIME: 2024-12-19 15:30:45                            ║
-║ AUTHOR: W8Team/W8SOJIB                               ║
-║ TELEGRAM: https://t.me/W8SOJIB                       ║
+║ AUTHOR: Creative RakibRoni                               ║
 ╚═══════════════════════════════════════════════════════╝
 
 ╔══════════════════════════════════════════════════════════════╗
-║                  🛡️  W8Team WiFi Hacker                     ║
+║                  🛡️  Creative WiFi Hacker                     ║
 ║                    Advanced Auto System                      ║
 ║                     💚 This Tool Free 💚                     ║
 ╠══════════════════════════════════════════════════════════════╣
@@ -287,25 +286,25 @@ Unlike traditional brute force that starts from 00000000, our Smart AI system us
 
 1. **🎯 Common WPS PINs** - Most frequently used PINs in the wild
    - `12345670`, `11111111`, `22222222`, `76543210`
-   
+
 2. **🏭 Manufacturer Defaults** - Router brand specific PINs
    - D-Link, TP-Link, Netgear, Linksys defaults
-   
+
 3. **📅 Date Patterns** - Date-based combinations
    - Years: `20240101`, `20230000`, birthdays, current dates
-   
+
 4. **🔢 Sequential Patterns** - Number sequences
    - Ascending: `12345678`, Descending: `98765432`
-   
+
 5. **🔁 Repetitive Patterns** - Repeating digits
    - `77777777`, `12121212`, `123123123`
-   
+
 6. **⌨️ Keyboard Patterns** - Physical layouts
    - QWERTY: `12345670`, Phone keypad patterns
-   
+
 7. **🧮 Mathematical Patterns** - Math-based sequences
    - Fibonacci, Prime numbers, BSSID-derived
-   
+
 8. **🎲 Smart Random** - BSSID-seeded intelligent patterns
 
 ### **⚡ Performance Comparison:**
@@ -342,15 +341,15 @@ The **Auto Attack Mode** now provides unprecedented automation and coverage:
 
 ### 🎯 **Quick Start Guide**
 
-1. **🚀 Auto Attack Mode** - Perfect for beginners  
-   * Automatically scans all networks  
-   * Identifies vulnerable targets  
-   * Attacks each target automatically  
+1. **🚀 Auto Attack Mode** - Perfect for beginners
+   * Automatically scans all networks
+   * Identifies vulnerable targets
+   * Attacks each target automatically
    * Saves all passwords
-2. **📡 Manual Selection** - For targeted attacks  
-   * Shows list of available networks  
-   * Color-coded vulnerability indicators  
-   * Select specific target  
+2. **📡 Manual Selection** - For targeted attacks
+   * Shows list of available networks
+   * Color-coded vulnerability indicators
+   * Select specific target
    * Multiple attack methods available
 
 ### 💻 **Command Line Mode**
@@ -445,7 +444,7 @@ pyfiglet, psutil, requests
 ### 🎯 **Supported Attack Vectors**
 
 * **Smart AI PIN Attacks** - 8 intelligent strategies instead of brute force
-* **Pixie Dust** - CVE-2014-3816 vulnerability exploitation  
+* **Pixie Dust** - CVE-2014-3816 vulnerability exploitation
 * **Pattern Recognition** - Mathematical sequences, keyboard patterns, dates
 * **Manufacturer Intelligence** - Database of router-specific default PINs
 * **BSSID Analysis** - MAC address-derived PIN generation
@@ -480,13 +479,6 @@ Users must ensure they have proper authorization before testing any wireless net
 
 ## 🤝 **Support & Community**
 
-### 📱 **Telegram Channel**
-
-* **Join**: https://t.me/W8SOJIB
-* Get latest updates and support
-* Community discussions and tips
-* Direct contact with developer
-
 ### 🐛 **Bug Reports**
 
 * Report issues via GitHub Issues
@@ -506,8 +498,8 @@ Users must ensure they have proper authorization before testing any wireless net
 ### 👨‍💻 **Development Team**
 
 * **Original OneShot**: rofl0r
-* **Enhanced Version**: W8Team/W8SOJIB
-* **AI Enhancements**: W8Team Development
+* **Enhanced Version**: Creative
+* **AI Enhancements**: Creative Development
 
 ### 🙏 **Special Thanks**
 
@@ -525,6 +517,6 @@ This project is licensed under the Educational License - see the LICENSE file fo
 
 ---
 
-**Made with ❤️ by W8Team**
+**Made with ❤️ by Creative RakibRoni**
 
-📱 [Telegram](https://t.me/W8SOJIB) • ⭐ Star this repo • 🍴 Fork
+📱 [Facebook](https://facebook.com/CreativeRakibRoni) • ⭐ Star this repo • 🍴 Fork

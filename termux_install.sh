@@ -1,18 +1,20 @@
 #!/bin/bash
 
-# W8Team WiFi Hacker - Termux Installation Script
-# Author: W8Team/W8SOJIB
-# Telegram: https://t.me/W8SOJIB
+# Creative WiFi Hacker - Termux Installation Script
+# Author: Creative RakibRoni
+# Facebook: https://facebook.com/CreativeRakibRoni
+# Platform: Android Termux
+# Telegram: https://t.me/MiniWebDeveloper
 # Version: 2.0
 
 clear
 echo ""
 echo "╔═══════════════════════════════════════════════════════════════╗"
-echo "║              🛡️  W8Team WiFi Hacker Installer                 ║"
+echo "║              🛡️  Creative WiFi Hacker Installer                 ║"
 echo "║                    Advanced Auto System v2.0                  ║"
 echo "╠═══════════════════════════════════════════════════════════════╣"
-echo "║  Author: W8Team/W8SOJIB                                       ║"
-echo "║  Telegram: https://t.me/W8SOJIB                               ║"
+echo "║  Author: Creative RakibRoni                                       ║"
+echo "║  Facebook: https://facebook.com/CreativeRakibRoni                              ║"
 echo "║  Platform: Android Termux                                     ║"
 echo "╚═══════════════════════════════════════════════════════════════╝"
 echo ""
@@ -116,7 +118,7 @@ echo -e "${PURPLE}║                    INSTALLATION COMPLETE                  
 echo -e "${PURPLE}╚═══════════════════════════════════════════════════════════════╝${NC}"
 echo ""
 
-echo -e "${GREEN}🎉 W8Team WiFi Hacker has been installed successfully!${NC}"
+echo -e "${GREEN}🎉 Creative WiFi Hacker has been installed successfully!${NC}"
 echo ""
 echo -e "${BLUE}📋 NEXT STEPS:${NC}"
 echo -e "${YELLOW}1.${NC} Grant root permissions: ${CYAN}tsu${NC}"
@@ -137,7 +139,7 @@ echo -e "${YELLOW}•${NC} Target WiFi networks nearby"
 echo ""
 
 echo -e "${BLUE}📱 SUPPORT & UPDATES:${NC}"
-echo -e "${YELLOW}•${NC} Telegram Channel: ${CYAN}https://t.me/W8SOJIB${NC}"
+echo -e "${YELLOW}•${NC} Facebook ID : ${CYAN}https://facebook.com/CreativeRakibRoni${NC}"
 echo -e "${YELLOW}•${NC} Get latest updates and support"
 echo -e "${YELLOW}•${NC} Report bugs and request features"
 echo ""
@@ -149,17 +151,17 @@ echo -e "${RED}⚠️  Educational and authorized testing only${NC}"
 echo ""
 
 echo -e "${GREEN}🛡️  Happy Ethical Hacking! 🛡️${NC}"
-echo -e "${CYAN}Made with ❤️  by W8Team/W8SOJIB${NC}"
+echo -e "${CYAN}Made with ❤️  by Creative RakibRoni${NC}"
 echo ""
 
 # Offer to open Telegram
-read -p "🔗 Open Telegram channel now? (y/n): " -n 1 -r
+read -p "🔗 Open Telegram ID now? (y/n): " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo -e "${BLUE}[*]${NC} Opening Telegram channel..."
-    am start -a android.intent.action.VIEW -d "https://t.me/W8SOJIB" 2>/dev/null || \
-    termux-open-url "https://t.me/W8SOJIB" 2>/dev/null || \
-    echo -e "${YELLOW}[*]${NC} Please open: https://t.me/W8SOJIB"
+    am start -a android.intent.action.VIEW -d "https://t.me/MiniWebDeveloper" 2>/dev/null || \
+    termux-open-url "https://t.me/MiniWebDeveloper" 2>/dev/null || \
+    echo -e "${YELLOW}[*]${NC} Please open: https://t.me/MiniWebDeveloper"
 fi
 
 echo -e "${GREEN}Installation script completed! 🎉${NC}"

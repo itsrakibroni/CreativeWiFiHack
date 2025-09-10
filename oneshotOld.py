@@ -470,7 +470,7 @@ class EnhancedReporter:
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Creative WiFi Penetration Test Report</title>
+    <title>W8Team WiFi Penetration Test Report</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
         .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
@@ -489,7 +489,7 @@ class EnhancedReporter:
 <body>
     <div class="container">
         <div class="header">
-            <h1>🛡️ Creative WiFi Penetration Test Report</h1>
+            <h1>🛡️ W8Team WiFi Penetration Test Report</h1>
             <p>Session ID: {session_id} | Generated: {timestamp}</p>
         </div>
 
@@ -1296,7 +1296,7 @@ class MenuHandler:
         """Main menu loop"""
         while True:
             os.system('clear' if os.name == 'posix' else 'cls')
-            show_creative_banner()
+            show_w8team_banner()
             show_main_menu()
 
             try:
@@ -1322,8 +1322,8 @@ class MenuHandler:
                     self.open_telegram()
 
                 elif choice == "7":
-                    print("\n[*] 👋 Thanks for using Creative WiFi Hacker!")
-                    print("[*] 📱 Follow us: https://facebook.com/CreativeRakibRoni")
+                    print("\n[*] 👋 Thanks for using W8Team WiFi Hacker!")
+                    print("[*] 📱 Follow us: https://t.me/W8SOJIB")
                     break
 
                 else:
@@ -2058,12 +2058,13 @@ Example:
 """
 
 
-def show_creative_banner():
+def show_w8team_banner():
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     banner_text = f"""
 ╔═══════════════════ LIVE STATISTICS ═══════════════════╗
 ║ TIME: {current_time}                    ║
-║ AUTHOR: CreativeRakibRoni                             ║
+║ AUTHOR: W8Team/W8SOJIB                              ║
+║ TELEGRAM: https://t.me/W8SOJIB                      ║
 ╚═══════════════════════════════════════════════════════╝
     """
     print(banner_text)
@@ -2072,7 +2073,7 @@ def show_creative_banner():
 def show_main_menu():
     menu = """
 ╔══════════════════════════════════════════════════════════════╗
-║                  🛡️  Creative WiFi Hacker                     ║
+║                  🛡️  W8Team WiFi Hacker                     ║
 ║                    Advanced Auto System                      ║
 ║                     💚 This Tool Free 💚                     ║
 ╠══════════════════════════════════════════════════════════════╣
@@ -2105,7 +2106,7 @@ if __name__ == '__main__':
         sys.exit(0)
 
     parser = argparse.ArgumentParser(
-        description='Creative WiFi Hacker - Advanced Auto System v2.0',
+        description='W8Team WiFi Hacker - Advanced Auto System v2.0',
         epilog='Example: %(prog)s -i wlan0 -b 00:90:4C:C1:AC:21 -K'
         )
 
@@ -2244,10 +2245,10 @@ if __name__ == '__main__':
         print('[*] Randomizing MAC address for stealth...')
         randomize_mac(args.interface)
 
-    show_creative_banner()
+    show_w8team_banner()
     while True:
         try:
-            show_creative_banner()
+            show_w8team_banner()
             companion = Companion(args.interface, args.write, print_debug=args.verbose)
             if args.pbc:
                 companion.single_connection(pbc_mode=True)

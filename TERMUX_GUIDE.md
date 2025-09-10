@@ -1,10 +1,10 @@
-# 📱 W8Team WiFi Hacker - Termux Quick Start Guide
+# 📱 Creative WiFi Hacker - Termux Quick Start Guide
 
 ## 🚀 **1-Minute Installation**
 
 ```bash
 # Copy and paste this entire block:
-pkg update && pkg upgrade -y && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw openssl python-pip aircrack-ng hashcat && pip install pyfiglet psutil requests && git clone https://github.com/W8SOJIB/W8RootWifiHKV2 && cd W8RootWifiHKV2 && echo "🎉 Ready to hack! Run: tsu && python oneshot.py"
+pkg update && pkg upgrade -y && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw openssl python-pip aircrack-ng hashcat && pip install pyfiglet psutil requests && git clone https://github.com/itsrakibroni/CreativeWiFiHack && cd W8RootWifiHKV2 && echo "🎉 Ready to hack! Run: tsu && python oneshot.py"
 ```
 
 ## 📋 **Step-by-Step Installation**
@@ -38,8 +38,8 @@ pip install pyfiglet psutil requests
 
 ### **Step 4: Clone Repository**
 ```bash
-git clone https://github.com/W8SOJIB/W8RootWifiHKV2
-cd W8RootWifiHKV2
+git clone https://github.com/itsrakibroni/CreativeWiFiHack
+cd CreativeWiFiHack
 ```
 
 ### **Step 5: Run Installer (Optional)**
@@ -134,7 +134,7 @@ termux-setup-storage
 
 ### **What to Expect**
 - **Pixie Dust**: 30 seconds - 2 minutes
-- **AI Prediction**: 2-10 minutes  
+- **AI Prediction**: 2-10 minutes
 - **Brute Force**: 10-60 minutes
 - **Auto Attack**: Varies per network
 
@@ -150,7 +150,7 @@ termux-setup-storage
 ```
 [+] ✅ Attack successful in 45.2 seconds!
 [+] WPS PIN: '12345670'
-[+] WPA PSK: 'MySecretPassword123' 
+[+] WPA PSK: 'MySecretPassword123'
 [+] AP SSID: 'HomeNetwork_5G'
 ```
 
@@ -179,8 +179,8 @@ cat auto_attack_results.txt
 
 ## 📞 **Get Help**
 
-### **Telegram Support**
-- Channel: https://t.me/W8SOJIB
+### **Facebook Support**
+- ID: https://facebook.com/CreativeRakibRoni
 - Direct support from developer
 - Community help and tips
 - Latest updates and features
@@ -232,6 +232,6 @@ cd ~ && rm -rf W8RootWifiHK && git clone [repo] && cd W8RootWifiHK
 
 **🛡️ Happy Ethical Hacking! 🛡️**
 
-*Made with ❤️ by W8Team/W8SOJIB*
+*Made with ❤️ by Creative RakibRoni*
 
-**📱 Join us: https://t.me/W8SOJIB**
+**📱 Follow us: https://facebook.com/CreativeRakibRoni**
