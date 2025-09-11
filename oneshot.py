@@ -1264,7 +1264,7 @@ class MenuHandler:
 
     def open_telegram(self):
         """Open Telegram link"""
-        telegram_url = "https://t.me/W8SOJIB"
+        telegram_url = "https://t.me/MiniWebDeveloper"
         print(f"\n[*] 📱 Opening Telegram: {telegram_url}")
 
         try:
